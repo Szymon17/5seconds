@@ -1,0 +1,22 @@
+.progress-bar {
+  height: 10%;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.progress-bar__line {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  animation: progressBar 5s linear;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}

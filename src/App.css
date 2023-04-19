@@ -8,7 +8,16 @@
   align-items: center;
 }
 
+.button_container {
+  height: 10%;
+  width: 80%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateX(10%);
+}
+
 .app-container {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
 }

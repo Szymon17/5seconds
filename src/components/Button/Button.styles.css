@@ -1,0 +1,37 @@
+button {
+  min-width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: 1.1em;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.2s all linear;
+
+  --button_base: #464646;
+  --button_base_glow: #646464;
+
+  --button_blue: #008dc5;
+  --button_blue_glow: #00a4e6;
+}
+
+.button_base {
+  border: 2px solid rgb(211, 211, 211);
+}
+
+.button_base:hover {
+  background-color: var(--button_base_glow);
+  box-shadow: 0 0 5px 0.5px var(--button_base_glow);
+}
+
+.button_blue {
+  background-color: var(--button_blue);
+}
+
+.button_blue:hover {
+  background-color: var(--button_blue_glow);
+  box-shadow: 0 0 5px 0.5px var(--button_blue_glow);
+}
