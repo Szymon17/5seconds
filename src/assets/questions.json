@@ -1,3 +1,13 @@
 {
-  "questions": ["Podaj 3 Polski miasta na literę M", "Podaj 3 Potrawy robione z ziemniaków"]
+  "questions": [
+    "Podaj 3 Polski miasta na literę M",
+    "Podaj 3 Potrawy robione z ziemniaków",
+    "Wymień 2 rzeczy, które można wysypać",
+    "Wymień 2 owoce, z których robi się sok",
+    "Wymień 3 elementy komputera",
+    "Wymień 3 postacie z serialu",
+    "Wymień 3 strony internetowe",
+    "Wymień 2 rzeczy, które pływają",
+    "Wymień 3 rzeczy, które możesz robić z zamkniętymi oczami"
+  ]
 }
