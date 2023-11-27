@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 900px) {
+  .app-container {
+    height: 95%;
+  }
+
   .button_container > .button {
     min-width: 100px;
     width: 40%;
